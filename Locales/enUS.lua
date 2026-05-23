@@ -90,5 +90,4 @@ L["With animation"] = true
 L["You can now move the frames by dragging them around."] = true
 L["You may drag the frame around when this option is set."] = true
 L["You need to re-open this window when changing breed settings."] = true
-
-
+L["ToDebugString"] = true
