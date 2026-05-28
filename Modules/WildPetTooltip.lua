@@ -89,6 +89,7 @@ end
 
 function module:ProcessTooltip(tooltip)
 	local name, unit = tooltip:GetUnit();
+	if WOW_PROJECT_ID == WOW_PROJECT_MAINLINE then if issecretvalue(name) or issecretvalue(unit) then return end end
 
 	local func = self.db.profile.onlywildpets and _G.UnitIsWildBattlePet or _G.UnitIsBattlePet;
 	if (not unit or not func(unit)) then
