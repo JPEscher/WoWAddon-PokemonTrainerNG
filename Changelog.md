@@ -1,3 +1,6 @@
+# 12.0.5-20260528-1
+* Taint- and localization fixes, provided by JPEscher on github.
+
 # 12.0.5-20260506-1
 * Update CallbackHandler library in LibPetJournal-2.0 to a compatible version.
 
